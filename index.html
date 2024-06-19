@@ -12,7 +12,7 @@
   nav a:hover { background-color: #ddd; color: black; }
   .container { padding: 20px; }
   .carousel-item img { max-height: 300px; margin: auto; }
-  footer { background-color: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+  footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; /* alterado de fixed para relative */ bottom: 0; width: 100%; }
 </style>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -24,10 +24,11 @@
 </header>
 
 <nav>
-  <a href="#financas">Finanças</a>
-  <a href="#auto-desenvolvimento">Auto-Desenvolvimento</a>
-  <a href="#auto-ajuda">Auto-Ajuda</a>
-  <a href="#educacao">Educação</a>
+  
+  <center><a href="ofertas.html">Ofertas</a>
+  <a href="maisvendidos.html">Mais Vendidos</a>
+  <a href="contato.html">Contato</a></center>
+  
 </nav>
 
 <div class="container">
@@ -36,11 +37,11 @@
   <div id="carouselFinancas" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <button onclick="window.location.href='link1'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aNxmlpNNWeDjI1F31IzQwzQboI0YZ32E5Ti0HPpk4GwKM8qQwluUqKc&s=10" alt="O Poder do Hábito"></button>
-        <button onclick="window.location.href='link2'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDihqlhI_NGrxGAzK3VCZ3uJW9R2cAsojDNt27ugr6FsUalMbM5r3UUNk&s=10" alt="Pai rico Pai pobre"></button>
-        <button onclick="window.location.href='link3'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqSzBSACBtSqSKUq1Y0x04yX6fkjuDnF3svd1aIVurO7FWOQeY_ZTNclC&s=10" alt="Os Segredos da Mente Milionária"></button>
-        <button onclick="window.location.href='link4'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFldJ28u8u_TEsFbT_RK291TsynxJ9EfQHOnVUTHn7xc-X5LXUx2tqVAV&s=10" alt="A Riqueza da Vida Simples"></button>
-        <button onclick="window.location.href='link5'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTff9PrfXpyxUG0ejWz786cK1CbrpFIXl5luqNL42UKhzHKekT16WVqq5KZ&s=10" alt="Rápido e Devagar: Duas Formas de Pensar"></button>
+        <a href="link1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aNxmlpNNWeDjI1F31IzQwzQboI0YZ32E5Ti0HPpk4GwKM8qQwluUqKc&s=10" alt="O Poder do Hábito"></a>
+        <a href="link2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDihqlhI_NGrxGAzK3VCZ3uJW9R2cAsojDNt27ugr6FsUalMbM5r3UUNk&s=10" alt="Pai rico Pai pobre"></a>
+        <a href="link3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqSzBSACBtSqSKUq1Y0x04yX6fkjuDnF3svd1aIVurO7FWOQeY_ZTNclC&s=10" alt="Os Segredos da Mente Milionária"></a>
+        <a href="link4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFldJ28u8u_TEsFbT_RK291TsynxJ9EfQHOnVUTHn7xc-X5LXUx2tqVAV&s=10" alt="A Riqueza da Vida Simples"></a>
+        <a href="link5"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTff9PrfXpyxUG0ejWz786cK1CbrpFIXl5luqNL42UKhzHKekT16WVqq5KZ&s=10" alt="Rápido e Devagar: Duas Formas de Pensar"></a>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselFinancas" role="button" data-slide="prev">
@@ -57,11 +58,11 @@
   <div id="carouselAutoDesenvolvimento" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <button onclick="window.location.href='link6'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zuib2oYKMMfUXTYlsozUiaHXQAajvqb4MnnTOBJxOcAFjFK9kU8xh26X&s=10" alt="A Arte da Guerra"></button>
-        <button onclick="window.location.href='link7'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSps-Vg_sqlTXyarJiEJNZC3o7lUMjixzyE0vNQhrecSyfjtQGIeolj-Wr-&s=10" alt="Como Fazer Amigos e Influenciar Pessoas"></button>
-        <button onclick="window.location.href='link8'"><img src="https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg" alt="As 48 Leis do Poder"></button>
-        <button onclick="window.location.href='link9'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJvsBTY8NmWZD3Pe9kkuVXdIiD4Z4opX1JXzXlkjgfjp6lMdimXyJ0gKE_&s=10" alt="MindSet: A Nova Psicologia do Sucesso"></button>
-        <button onclick="window.location.href='link10'"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR67J-PdDaMPWq4pJ09Lt1UVUQZufqRKj3k6g&s" alt="O Poder do Silêncio"></button>
+        <a href="link6"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_zuib2oYKMMfUXTYlsozUiaHXQAajvqb4MnnTOBJxOcAFjFK9kU8xh26X&s=10" alt="A Arte da Guerra"></a>
+        <a href="link7"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSps-Vg_sqlTXyarJiEJNZC3o7lUMjixzyE0vNQhrecSyfjtQGIeolj-Wr-&s=10" alt="Como Fazer Amigos e Influenciar Pessoas"></a>
+        <a href="link8"><img src="https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg" alt="As 48 Leis do Poder"></a>
+        <a href="link9"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJvsBTY8NmWZD3Pe9kkuVXdIiD4Z4opX1JXzXlkjgfjp6lMdimXyJ0gKE_&s=10" alt="MindSet: A Nova Psicologia do Sucesso"></a>
+        <a href="link10"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR67J-PdDaMPWq4pJ09Lt1UVUQZufqRKj3k6g&s" alt="O Poder do Silêncio"></a>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselAutoDesenvolvimento" role="button" data-slide="prev">
@@ -73,50 +74,6 @@
       <span class="sr-only">Próximo</span>
     </a>
   </div>
-  
-  <h2 id="auto-ajuda">Auto-Ajuda</h2>
-  <div id="carouselAutoAjuda" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <button onclick="window.location.href='link11'"><img src="bla" alt="Em Busca de Nós Mesmos"></button>
-        <button onclick="window.location.href='link12'"><img src="bla" alt="O Poder do Subconsciente"></button>
-        <button onclick="window.location.href='link13'"><img src="bla" alt="O Milagre da Manhã"></button>
-        <button onclick="window.location.href='link14'"><img src="bla" alt="12 Regras para a Vida"></button>
-        <button onclick="window.location.href='link15'"><img src="bla" alt="Nada Pode me Ferir"></button>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselAutoAjuda" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselAutoAjuda" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
-  </div>
-  
-  <h2 id="educacao">Educação</h2>
-  <div id="carouselEducacao" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <button onclick="window.location.href='link16'"><img src="bla" alt="Pedagogia da Autonomia"></button>
-        <button onclick="window.location.href='link17'"><img src="bla" alt="País Mal Educado"></button>
-        <button onclick="window.location.href='link18'"><img src="bla" alt="Grandes Mestres do Estoicismo"></button>
-        <button onclick="window.location.href='link19'"><img src="bla" alt="Sobre a Pedagogia"></button>
-        <button onclick="window.location.href='link20'"><img src="bla" alt="Apologia de Sócrates"></button>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselEducacao" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselEducacao" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
-  </div>
-  
-</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
@@ -128,3 +85,4 @@
 
 </body>
 </html>
+
