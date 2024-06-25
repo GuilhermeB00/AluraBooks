@@ -11,8 +11,8 @@
   nav a { color: white; padding: 14px 20px; text-decoration: none; }
   nav a:hover { background-color: #ddd; color: black; }
   .container { padding: 20px; }
-  .carousel-item img { max-height: 300px; margin: auto; }
-  footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; /* alterado de fixed para relative */ bottom: 0; width: 100%; }
+  .carousel-item img { height: 300px; width: auto; display: block; margin: auto; }
+  footer { background-color: #333; color: white; text-align: center; padding: 10px; position: relative; bottom: 0; width: 100%; }
 </style>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -24,14 +24,11 @@
 </header>
 
 <nav>
-  
-  <center><a href="maisvendidos.html">Mais Vendidos</a>
-  <a href="contato.html">Contato</a></center>
-  
+  <a href="maisvendidos.html">Mais Vendidos</a>
+  <a href="contato.html">Contato</a>
 </nav>
 
 <div class="container">
-  
   <h2 id="financas">Finanças</h2>
   <div id="carouselFinancas" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -41,15 +38,14 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqSzBSACBtSqSKUq1Y0x04yX6fkjuDnF3svd1aIVurO7FWOQeY_ZTNclC&s=10" alt="Os Segredos da Mente Milionária">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOFldJ28u8u_TEsFbT_RK291TsynxJ9EfQHOnVUTHn7xc-X5LXUx2tqVAV&s=10" alt="A Riqueza da Vida Simples">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTff9PrfXpyxUG0ejWz786cK1CbrpFIXl5luqNL42UKhzHKekT16WVqq5KZ&s=10" alt="Rápido e Devagar: Duas Formas de Pensar">
-       <img src="https://m.media-amazon.com/images/I/71Mhl0pI8XL._AC_UF1000,1000_QL80_.jpg" alt="Como Organizar Sua Vida Financeira">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXx_XGwFP4a3fPRkp3E9T7Rh4AOWya2BfgYdaI0rlCv9z8JVTv8iLNuMg&s=10" alt="Pense e Fique Rico">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_KvAImcEYitZ2I7LQcedW6Z52ympg1uw28DZR06t0hSBhKCZUW85xQo&s=10" alt="Investidor de Bom Senso">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwpLKXYBUt1JgkyDarashjJqvO_SL6G3a4LOQkWm7RTFU76-RJEcxKM8&s=10" alt="A Ciência de Ficar Rico">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRDmlJXskpKxgDW9enV4Y3BPqtLlUg30TxXpBOkS4MUquSVy66RTQOLjr&s=10" alt="Me Poupe">
-       <img src="https://m.media-amazon.com/images/I/81ehvI03NYS._AC_UF1000,1000_QL80_.jpg" alt="A Psicologia Financeira">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KPieME7oX1Ow-Ep9sxAGxtdnVrEFZ-9tkeEnremh4Qw0cgAaoMuIdLo&s=10" alt="O Investidor Inteligente">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN9K4aHZ0IvSP3YWiY452yhn8gHR0ae5Z6DdTqq7UgCNrWK2l6YykEuqI&s=10" alt="Finanças Para Autônomos">
-
+        <img src="https://m.media-amazon.com/images/I/71Mhl0pI8XL._AC_UF1000,1000_QL80_.jpg" alt="Como Organizar Sua Vida Financeira">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXx_XGwFP4a3fPRkp3E9T7Rh4AOWya2BfgYdaI0rlCv9z8JVTv8iLNuMg&s=10" alt="Pense e Fique Rico">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_KvAImcEYitZ2I7LQcedW6Z52ympg1uw28DZR06t0hSBhKCZUW85xQo&s=10" alt="Investidor de Bom Senso">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwpLKXYBUt1JgkyDarashjJqvO_SL6G3a4LOQkWm7RTFU76-RJEcxKM8&s=10" alt="A Ciência de Ficar Rico">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeRDmlJXskpKxgDW9enV4Y3BPqtLlUg30TxXpBOkS4MUquSVy66RTQOLjr&s=10" alt="Me Poupe">
+        <img src="https://m.media-amazon.com/images/I/81ehvI03NYS._AC_UF1000,1000_QL80_.jpg" alt="A Psicologia Financeira">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KPieME7oX1Ow-Ep9sxAGxtdnVrEFZ-9tkeEnremh4Qw0cgAaoMuIdLo&s=10" alt="O Investidor Inteligente">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN9K4aHZ0IvSP3YWiY452yhn8gHR0ae5Z6DdTqq7UgCNrWK2l6YykEuqI&s=10" alt="Finanças Para Autônomos">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselFinancas" role="button" data-slide="prev">
@@ -70,17 +66,16 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSps-Vg_sqlTXyarJiEJNZC3o7lUMjixzyE0vNQhrecSyfjtQGIeolj-Wr-&s=10" alt="Como Fazer Amigos e Influenciar Pessoas">
         <img src="https://m.media-amazon.com/images/I/617iS--XOQL._AC_UF1000,1000_QL80_.jpg" alt="As 48 Leis do Poder">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJvsBTY8NmWZD3Pe9kkuVXdIiD4Z4opX1JXzXlkjgfjp6lMdimXyJ0gKE_&s=10" alt="MindSet: A Nova Psicologia do Sucesso">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR67J-PdDaMPWq4pJ09Lt1UVUQZufqRKj3k6g&s" alt="O Poder do Silêncio" width="240" height="300">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQfWL4e_kYmzykCqx03yUptg0zUVLRwbqqsqJyDc5INEswYAeogXaRhdc&s=10" alt="A Arte da Estratégia">
-       <img src="https://m.media-amazon.com/images/I/51YuBPs2u2L._AC_UF1000,1000_QL80_.jpg" alt="Comunicação Assertiva">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4p9gWIL_XkSNcYAAKyBIWIBEt2rWjJCwo_sj38_P3h1FuCpzSL_9MStg&s=10" alt="Como Convercer Alguém 90 Segundos">
-     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbFoqd3i5N1v8VVF2EbFCZAQJby61C2OQmN846TggPGPXBM_3Et-vmpCI&s=10" alt="Gatilhos Mentais">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgH7IzSmdNKkF-IUX9YMs8NWy-RN0jc1WygyKQ9z7isNyObRIhiAY5qcU&s=10" alt="Arrume Sua Cama">
-    <img src="https://m.media-amazon.com/images/I/81eOYoxFp4L._AC_UF1000,1000_QL80_.jpg" alt="Nunca é Hora de Parar">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa95X3jYdEOGBh1KdR0zCxCTGJKlJUuLRPN_TdgA2i-jhhwYLPeyUkEdQ&s=10" alt="O Despertar da Consciência">
-    <img src="https://m.media-amazon.com/images/I/717diaFhKoL._AC_UF1000,1000_QL80_.jpg" alt="Poder e Manipulação">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYdvflGEB7eidGZzNe0OgdkqXI4UOnkwM7B8o_mJd5JCo_94WdzY7qvw&s=10" alt="Mentes Maquiavélicas">
-
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR67J-PdDaMPWq4pJ09Lt1UVUQZufqRKj3k6g&s" alt="O Poder do Silêncio">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQfWL4e_kYmzykCqx03yUptg0zUVLRwbqqsqJyDc5INEswYAeogXaRhdc&s=10" alt="A Arte da Estratégia">
+        <img src="https://m.media-amazon.com/images/I/51YuBPs2u2L._AC_UF1000,1000_QL80_.jpg" alt="Comunicação Assertiva">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4p9gWIL_XkSNcYAAKyBIWIBEt2rWjJCwo_sj38_P3h1FuCpzSL_9MStg&s=10" alt="Como Convercer Alguém 90 Segundos">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRbFoqd3i5N1v8VVF2EbFCZAQJby61C2OQmN846TggPGPXBM_3Et-vmpCI&s=10" alt="Gatilhos Mentais">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgH7IzSmdNKkF-IUX9YMs8NWy-RN0jc1WygyKQ9z7isNyObRIhiAY5qcU&s=10" alt="Arrume Sua Cama">
+        <img src="https://m.media-amazon.com/images/I/81eOYoxFp4L._AC_UF1000,1000_QL80_.jpg" alt="Nunca é Hora de Parar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa95X3jYdEOGBh1KdR0zCxCTGJKlJUuLRPN_TdgA2i-jhhwYLPeyUkEdQ&s=10" alt="O Despertar da Consciência">
+        <img src="https://m.media-amazon.com/images/I/717diaFhKoL._AC_UF1000,1000_QL80_.jpg" alt="Poder e Manipulação">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYdvflGEB7eidGZzNe0OgdkqXI4UOnkwM7B8o_mJd5JCo_94WdzY7qvw&s=10" alt="Mentes Maquiavélicas">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselAutoDesenvolvimento" role="button" data-slide="prev">
@@ -92,6 +87,7 @@
       <span class="sr-only">Próximo</span>
     </a>
   </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
